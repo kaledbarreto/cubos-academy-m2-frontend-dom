@@ -6,4 +6,4 @@
 
 - DOM
 
-###### tags: `módulo 1` `dom` `js`
+###### tags: `módulo 2` `dom` `js`
