@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercicio - 01</title>
+
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+
+      justify-content: center;
+      align-items: center;
+
+      min-height: 100vh;
+    }
+
+    .escondido {
+      display: none;
+    }
+  </style>
+</head>
+
+<body>
+  <button type="button" onclick="mostrarMensagem()">Imagem Aleatória</button>
+  <p class="escondido paragrafo">Mensagem Dahora</p>
+</body>
+<script>
+  const p = document.querySelector('p');
+
+  function mostrarMensagem() {
+    p.classList.toggle('escondido');
+  }
+</script>
+
+</html>
